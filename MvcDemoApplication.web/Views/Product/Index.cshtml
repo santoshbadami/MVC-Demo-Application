@@ -1,0 +1,65 @@
+﻿@model MvcDemoApplication.web.Models.ProductViewModel
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Add/Manage Product</title>
+    <link href="~/css/UnabtrusiveValidation.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+</head>
+<body>
+    <div>
+        @Html.Partial("header")
+    </div>
+    <hr/>
+    <div style="margin-top:5%; margin-bottom:5%;">
+        @using (Html.BeginForm("index", "Product", FormMethod.Post))
+        {
+            <table>
+                <tr>
+                    <td>@ViewBag.msg</td>
+                </tr>
+                <tr>
+                    <td>@Html.ActionLink("Add New", "Index", "Product")</td>
+                </tr>
+                <tr>
+                    <td>@Html.HiddenFor(x => x.ProductID)</td>
+                </tr>
+                <tr>
+                    <td>Category:</td>
+                </tr>
+                <tr>
+                    <td>
+                        @Html.DropDownListFor(x => x.CategoryID, Model.CatList, "--Select Category--")<br />
+                    @Html.ValidationMessageFor(x => x.CategoryID)
+                </td>
+            </tr>
+            <tr>
+                <td>Product Name:</td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.TextBoxFor(x => x.ProductName)<br />
+                @Html.ValidationMessageFor(x => x.ProductName)
+            </td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Add" /></td>
+        </tr>
+    </table>
+        }
+    </div>
+    <div style="margin-bottom:10%;">
+        @{Html.RenderAction("getProductlist", "Product");}
+    </div>
+    <hr/>
+    <div>
+        @Html.Partial("footer")
+    </div>
+</body>
+</html>

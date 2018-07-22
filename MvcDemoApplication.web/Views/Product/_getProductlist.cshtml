@@ -1,0 +1,40 @@
+﻿
+@model IEnumerable<MvcDemoApplication.web.Models.ProductViewModel>
+
+@using MvcDemoApplication.Model.Categories;
+@using MvcDemoApplication.Service.Categories;
+@{
+    //private readonly ICategoryService m_CategoryService = null;
+}
+
+@if (Model.Count() > 0)
+{
+    <table style="border-collapse:collapse;" width="25%" border="1">
+        <tr>
+            <th>Product</th>
+            <th>Category</th>
+            <th colspan="2">Action</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ProductName</td>
+                <td>@item.CategoryID
+                </td>
+                <td><a href="/Product/index/@item.ProductID">Edit</a></td>
+                <td><a href="/Product/delete/@item.ProductID" onclick="return delete_confirm();">Delete</a></td>
+            </tr>
+        }
+    </table>
+}
+
+<script type="text/javascript">
+    function delete_confirm() {
+        if (confirm("Are you sure to delete this record?"))
+            return true;
+        else
+            return false;
+    }
+</script>
+
+

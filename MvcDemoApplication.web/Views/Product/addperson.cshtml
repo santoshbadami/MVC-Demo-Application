@@ -1,0 +1,54 @@
+﻿@model MvcDemoApplication.web.Models.Person
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>addperson</title>
+    <link href="~/css/UnabtrusiveValidation.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+
+    <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+  
+</head>
+<body>
+    <div> 
+        @using(Html.BeginForm("addperson","Product",FormMethod.Post))
+        {
+          <table>
+            <tr>
+                <td>Id:</td>
+                <td>@Html.TextBoxFor(x=>x.Id)</td>
+                <td>@Html.ValidationMessageFor(x=>x.Id)</td>
+            </tr>
+            <tr>
+                <td>Name:</td>
+                <td>@Html.TextBoxFor(x=>x.Name)</td>
+                <td>@Html.ValidationMessageFor(x => x.Name)</td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td>@Html.TextBoxFor(x=>x.Email)</td>
+                <td>@Html.ValidationMessageFor(x => x.Email)</td>
+            </tr>
+            <tr>
+                <td>Age:</td>
+                <td>@Html.TextBoxFor(x=>x.Age)</td>
+                <td>@Html.ValidationMessageFor(x => x.Age)</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" name="Submit" value="Submit" /></td>
+            </tr>
+        </table>
+        }
+      
+    </div>
+</body>
+</html>

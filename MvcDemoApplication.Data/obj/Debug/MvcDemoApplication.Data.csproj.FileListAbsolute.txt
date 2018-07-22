@@ -1,0 +1,28 @@
+D:\Practice\MVC\MvcDemoApplication\MvcDemoApplication.Data\obj\Debug\MvcDemoApplication.Data.csprojResolveAssemblyReference.cache
+D:\Practice\MVC\MvcDemoApplication\MvcDemoApplication.Data\bin\Debug\MvcDemoApplication.Data.dll.config
+D:\Practice\MVC\MvcDemoApplication\MvcDemoApplication.Data\bin\Debug\MvcDemoApplication.Data.dll
+D:\Practice\MVC\MvcDemoApplication\MvcDemoApplication.Data\bin\Debug\MvcDemoApplication.Data.pdb
+D:\Practice\MVC\MvcDemoApplication\MvcDemoApplication.Data\bin\Debug\EntityFramework.dll
+D:\Practice\MVC\MvcDemoApplication\MvcDemoApplication.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Practice\MVC\MvcDemoApplication\MvcDemoApplication.Data\bin\Debug\MvcDemoApplication.Model.dll
+D:\Practice\MVC\MvcDemoApplication\MvcDemoApplication.Data\bin\Debug\MvcDemoApplication.Model.pdb
+D:\Practice\MVC\MvcDemoApplication\MvcDemoApplication.Data\bin\Debug\EntityFramework.xml
+D:\Practice\MVC\MvcDemoApplication\MvcDemoApplication.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Practice\MVC\MvcDemoApplication\MvcDemoApplication.Data\obj\Debug\MvcDemoApplication.Data.dll
+D:\Practice\MVC\MvcDemoApplication\MvcDemoApplication.Data\obj\Debug\MvcDemoApplication.Data.pdb
+D:\Practice\MVC\MvcDemoApplication\MvcDemoApplication.Data\obj\Debug\MvcDemoApplication.Data.Migrations.InitialDB.resources
+D:\Practice\MVC\MvcDemoApplication\MvcDemoApplication.Data\obj\Debug\MvcDemoApplication.Data.csproj.GenerateResource.Cache
+D:\Praveen Training\MVC\MvcDemoApplication\MvcDemoApplication.Data\bin\Debug\MvcDemoApplication.Data.dll.config
+D:\Praveen Training\MVC\MvcDemoApplication\MvcDemoApplication.Data\bin\Debug\MvcDemoApplication.Data.dll
+D:\Praveen Training\MVC\MvcDemoApplication\MvcDemoApplication.Data\bin\Debug\MvcDemoApplication.Data.pdb
+D:\Praveen Training\MVC\MvcDemoApplication\MvcDemoApplication.Data\bin\Debug\EntityFramework.dll
+D:\Praveen Training\MVC\MvcDemoApplication\MvcDemoApplication.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Praveen Training\MVC\MvcDemoApplication\MvcDemoApplication.Data\bin\Debug\MvcDemoApplication.Model.dll
+D:\Praveen Training\MVC\MvcDemoApplication\MvcDemoApplication.Data\bin\Debug\MvcDemoApplication.Model.pdb
+D:\Praveen Training\MVC\MvcDemoApplication\MvcDemoApplication.Data\bin\Debug\EntityFramework.xml
+D:\Praveen Training\MVC\MvcDemoApplication\MvcDemoApplication.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Praveen Training\MVC\MvcDemoApplication\MvcDemoApplication.Data\obj\Debug\MvcDemoApplication.Data.csprojResolveAssemblyReference.cache
+D:\Praveen Training\MVC\MvcDemoApplication\MvcDemoApplication.Data\obj\Debug\MvcDemoApplication.Data.Migrations.InitialDB.resources
+D:\Praveen Training\MVC\MvcDemoApplication\MvcDemoApplication.Data\obj\Debug\MvcDemoApplication.Data.csproj.GenerateResource.Cache
+D:\Praveen Training\MVC\MvcDemoApplication\MvcDemoApplication.Data\obj\Debug\MvcDemoApplication.Data.dll
+D:\Praveen Training\MVC\MvcDemoApplication\MvcDemoApplication.Data\obj\Debug\MvcDemoApplication.Data.pdb
